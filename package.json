@@ -1,14 +1,14 @@
 {
-  "name": "markdown-to-image-serve",
+  "name": "md-to-image",
   "author": {
-    "name": "wxingheng",
-    "email": "wxingheng@outlook.com"
+    "name": "洋芋哥",
+    "email": "zxinyun@outlook.com"
   },
   "description": "A service that converts Markdown content to beautiful images with API support, offering customizable themes and layouts",
   "version": "0.0.6",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev -p 8888",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
