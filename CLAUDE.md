@@ -1,4 +1,4 @@
-# Markdown to Image Serve - Claude AI 开发指南
+# md-to-image - Claude AI 开发指南
 
 ## 项目概述
 
