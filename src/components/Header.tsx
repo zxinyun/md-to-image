@@ -13,20 +13,20 @@ export default function Header() {
       <div className="max-w-6xl flex w-full items-center justify-between">
         <div className="font-medium text-xl text-indigo-900 flex items-center gap-2">
           {/* <div>logo</div> */}
-          <Link href="/">markdown-to-poster-plus</Link>
+          <Link href="/">md-to-image</Link>
         </div>
         <div className="flex items-center justify-center gap-1 text-sm font-light text-indigo-900/90">
           <p
             className="py-2 px-4 rounded-full flex justify-center items-center
                 lg:hover:bg-indigo-300 duration-200"
           >
-            <Link href="/">Web Editor</Link>
+            <Link href="/">编辑</Link>
           </p>
           <p
             className="py-2 px-4 rounded-full flex justify-center items-center
                 lg:hover:bg-indigo-300 duration-200"
           >
-            <Link href="/docs">Docs</Link>
+            <Link href="/docs">文档</Link>
           </p>
           <p
             className="py-2 px-4 rounded-full flex justify-center items-center
@@ -34,7 +34,7 @@ export default function Header() {
                 "
           >
             <a
-              href="https://github.com/wxingheng/markdown-to-image-serve"
+              href="https://github.com/zxinyun/md-to-image"
               target="_blank"
               className="flex items-center justify-center gap-1"
             >
@@ -52,11 +52,11 @@ export default function Header() {
           </p>
           {/* 在导航菜单的合适位置添加 */}
           <a
-            href="https://jcommon.top"
+            href="https://0871178.com"
             target="_blank"
             className="py-2 px-4 rounded-full flex justify-center items-center lg:hover:bg-indigo-300 duration-200"
           >
-            <span>🛠️ JCommon工场</span>
+            <span>🛠️ 洋芋哥</span>
           </a>
         </div>
       </div>
