@@ -11,8 +11,8 @@ export default function Footer() {
         className="px-6 py-3 rounded-full flex justify-center items-center gap-2
              hover:text-gray-500 duration-200"
       >
-        <span>© 2025</span>
-        <Link href="https://github.com/wxingheng/markdown-to-image-serve">wxingheng/markdown-to-image-serve</Link>
+        <span>© 2026</span>
+        <Link href="https://github.com/zxinyun/md-to-image">md-to-image</Link>
       </p>
     </footer>
   )
