@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: markdown-to-image-serve
+    name: md-to-image
     env: docker
     region: oregon
     plan: free
@@ -10,7 +10,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: NEXT_PUBLIC_BASE_URL
-        value: https://markdown-to-image-serve.onrender.com
+        value: https://md-to-image.onrender.com
       - key: CHROME_PATH
         value: /usr/bin/google-chrome-unstable
     healthCheckPath: /api/hello
